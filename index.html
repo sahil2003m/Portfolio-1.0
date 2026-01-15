@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahil Mahamulkar | Java Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <div class="theme-toggle">
+        <button class="theme-btn" id="themeToggle" aria-label="Toggle theme">
+            <div class="theme-icon">
+                <i class="fas fa-sun"></i>
+                <i class="fas fa-moon"></i>
+            </div>
+            <span class="theme-text">Theme</span>
+        </button>
+    </div>
+
+    <!-- 3D Animated Background -->
+    <div class="background-3d">
+        <div class="floating-block block-1"></div>
+        <div class="floating-block block-2"></div>
+        <div class="floating-block block-3"></div>
+        <div class="floating-block block-4"></div>
+        <div class="floating-block block-5"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">SAHIL MAHAMULKAR</span>
+                <span class="logo-dot">.</span>
+            </div>
+            
+            <!-- Hamburger Menu -->
+            <button class="hamburger-menu" id="hamburgerMenu" aria-label="Toggle menu">
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+            </button>
+            
+            <!-- Navigation Menu -->
+            <div class="nav-overlay" id="navOverlay"></div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="title-wrapper">
+                        <h1 class="hero-title">
+                            <span class="title-line">SAHIL</span>
+                            <span class="title-line">MAHAMULKAR</span>
+                        </h1>
+                    </div>
+                    <h2 class="hero-subtitle">
+                        <span class="subtitle-text">Java Developer</span>
+                    </h2>
+                    <p class="hero-description">
+                        Entry-level Java Developer with hands-on experience in Core Java, Spring Boot, Hibernate, 
+                        and backend development. Passionate about building scalable solutions and continuous learning.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="cta-button primary-btn">
+                            <span>View Projects</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="cta-button secondary-btn">
+                            <span>Contact Me</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </a>
+                    </div>
+                    <div class="hero-quick-info">
+                        <div class="quick-info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Maharashtra, India</span>
+                        </div>
+                        <div class="quick-info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>sahilmahamulkar2003@gmail.com</span>
+                        </div>
+                        <div class="quick-info-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 8379983462</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <!-- Rotating 3D Cube -->
+                    <div class="rotating-cube" id="rotatingCube" aria-label="3D Cube showing technical skills">
+                        <div class="cube-face front">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="cube-face back">
+                            <i class="fas fa-database"></i>
+                            <span>SQL</span>
+                        </div>
+                        <div class="cube-face right">
+                            <i class="fas fa-leaf"></i>
+                            <span>Spring</span>
+                        </div>
+                        <div class="cube-face left">
+                            <i class="fas fa-code"></i>
+                            <span>Code</span>
+                        </div>
+                        <div class="cube-face top">
+                            <i class="fas fa-server"></i>
+                            <span>Backend</span>
+                        </div>
+                        <div class="cube-face bottom">
+                            <i class="fas fa-cogs"></i>
+                            <span>Dev</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Floating Tech Icons -->
+                    <div class="floating-icons">
+                        <div class="floating-icon"><i class="fab fa-html5"></i></div>
+                        <div class="floating-icon"><i class="fab fa-css3-alt"></i></div>
+                        <div class="floating-icon"><i class="fab fa-js"></i></div>
+                        <div class="floating-icon"><i class="fas fa-database"></i></div>
+                        <div class="floating-icon"><i class="fab fa-spring"></i></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Scroll Indicator -->
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <span>Scroll to explore</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">ABOUT ME</div>
+                <h2 class="section-title">Who I Am</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-card">
+                    <div class="about-image">
+                        <div class="image-container">
+                            <div class="image-placeholder">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <div class="image-glow"></div>
+                        </div>
+                    </div>
+                    <div class="about-info">
+                        <h3>Sahil Mahamulkar</h3>
+                        <p class="about-role">Java Developer</p>
+                        <p class="about-bio">
+                            I'm an entry-level Java Developer with hands-on experience in Core Java, JDBC, JPA, 
+                            Hibernate, Spring Core, and Spring Boot. I have a strong understanding of object-oriented 
+                            programming, data persistence, and backend application development. My goal is to build 
+                            scalable, efficient software solutions while continuously expanding my technical skills.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat">
+                                <span class="stat-number">2</span>
+                                <span class="stat-label">Projects</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">5+</span>
+                                <span class="stat-label">Technologies</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label">Dedication</span>
+                            </div>
+                        </div>
+                        <div class="about-languages">
+                            <h4>Languages:</h4>
+                            <div class="language-tags">
+                                <span class="language-tag">English</span>
+                                <span class="language-tag">Hindi</span>
+                                <span class="language-tag">Marathi</span>
+                            </div>
+                        </div>
+                        <div class="about-hobbies">
+                            <h4>Hobbies:</h4>
+                            <div class="hobby-tags">
+                                <span class="hobby-tag">Travelling</span>
+                                <span class="hobby-tag">Music</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">SKILLS</div>
+                <h2 class="section-title">Technical Expertise</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fab fa-java"></i>
+                    </div>
+                    <h3>Java Technologies</h3>
+                    <ul class="skill-list">
+                        <li>Core Java</li>
+                        <li>Spring Boot</li>
+                        <li>Spring Core</li>
+                        <li>Hibernate</li>
+                        <li>JPA</li>
+                        <li>JDBC</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Database</h3>
+                    <ul class="skill-list">
+                        <li>SQL Server</li>
+                        <li>MySQL</li>
+                        <li>Database Design</li>
+                        <li>CRUD Operations</li>
+                        <li>SQL Queries</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <ul class="skill-list">
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Responsive Design</li>
+                        <li>DOM Handling</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Core Skills</h3>
+                    <ul class="skill-list">
+                        <li>Object-Oriented Programming</li>
+                        <li>Data Structures</li>
+                        <li>Problem Solving</li>
+                        <li>Exception Handling</li>
+                        <li>Data Validation</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="skills-progress">
+                <h3 class="progress-title">Skill Proficiency</h3>
+                <div class="progress-bars">
+                    <div class="progress-item">
+                        <div class="progress-label">
+                            <span>Java & Spring</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="progress-item">
+                        <div class="progress-label">
+                            <span>Database (SQL)</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="progress-item">
+                        <div class="progress-label">
+                            <span>Web Technologies</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="progress-item">
+                        <div class="progress-label">
+                            <span>Problem Solving</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 90%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">PROJECTS</div>
+                <h2 class="section-title">My Work</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Practical implementations of my skills</p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-number">01</div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">OOP</span>
+                            <span class="tech-tag">JDBC</span>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Student Management System</h3>
+                    <p class="project-description">
+                        A comprehensive system for managing student records with full CRUD operations. 
+                        Features include data validation, exception handling, and user-friendly interface.
+                    </p>
+                    <div class="project-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>Add, update, delete, and retrieve student records</li>
+                            <li>Object-Oriented Programming principles</li>
+                            <li>Data validation and error handling</li>
+                            <li>Backend logic with frontend integration</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-number">02</div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Data Structures</span>
+                            <span class="tech-tag">OOP</span>
+                        </div>
+                    </div>
+                    <h3 class="project-title">RedBus Booking System</h3>
+                    <p class="project-description">
+                        A bus booking system implementing custom data structures with advanced features 
+                        and booking restrictions.
+                    </p>
+                    <div class="project-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>Custom dynamic arrays implementation</li>
+                            <li>In-memory database for runtime storage</li>
+                            <li>Seat booking restrictions (adjacent seats for females)</li>
+                            <li>Custom ArrayList without Java collections</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">EDUCATION</div>
+                <h2 class="section-title">Academic Journey</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-year">2021-2025</div>
+                    <div class="timeline-content">
+                        <h3>Bachelor of Technology in Computer Science and Engineering</h3>
+                        <p class="institution">Dr. Babasaheb Ambedkar Technological University</p>
+                        <p class="grade">SGPA: 6.8</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-year">2019-2021</div>
+                    <div class="timeline-content">
+                        <h3>12th Grade</h3>
+                        <p class="institution">Shivaji University</p>
+                        <p class="grade">Percentage: 85.17%</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-year">2018-2019</div>
+                    <div class="timeline-content">
+                        <h3>10th Grade</h3>
+                        <p class="institution">Shripatrao Patil High School And Junior College</p>
+                        <p class="grade">Percentage: 80.80%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">CONTACT</div>
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Open to opportunities and collaborations</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>sahilmahamulkar2003@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+91 8379983462</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Maharashtra, India</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Education</h3>
+                            <p>B.Tech in Computer Science</p>
+                            <p>Dr. B.A. Technological University</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">SAHIL MAHAMULKAR</span>
+                    <span class="logo-dot">.</span>
+                </div>
+                <p class="footer-tagline">Java Developer | Problem Solver | Continuous Learner</p>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-contact">
+                    <p>Email: sahilmahamulkar2003@gmail.com</p>
+                    <p>Phone: +91 8379983462</p>
+                </div>
+                <p class="footer-copyright">
+                    © 2024 Sahil Mahamulkar. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
